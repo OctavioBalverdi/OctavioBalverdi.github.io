@@ -7,6 +7,7 @@ import Portafolio from "./Component/Portafolio/Portafolio"
 import Contact from "./Component/Contact/Contact"
 import Footer from "./Component/Footer/Footer"
 import Estudios from './Component/Estudios/Estudios'
+import Servicio from './Component/servicio/Servicio'
 
 function App() {
  
@@ -19,6 +20,7 @@ function App() {
       <Skill/>
       <Portafolio/>
       <Estudios/>
+      <Servicio/>
       <Contact/>
       <Footer/>
     </>

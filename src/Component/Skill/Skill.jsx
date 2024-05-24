@@ -6,7 +6,7 @@ import { SiCss3, SiJavascript,SiTypescript, SiReact,SiElectron,SiBootstrap,SiNod
 const Experience = () => {
   return (
 <section id='skill'>
-      <h5>What Skills I Have</h5>
+      <h5>My Skills</h5>
       <h2>My Experience</h2>
 <div className="container experience_container">    
       <div className="experience_frontend">
@@ -16,28 +16,24 @@ const Experience = () => {
       <ImHtmlFive className='experience_details-icon'/>
       <div>
       <h4>HTML</h4>
-      <small className='text-light'>Experienced</small>
       </div>
       </article>
       <article className="experience_details">
         <SiCss3 className='experience_details-icon'/>
         <div>
         <h4>CSS</h4>
-      <small className='text-light'>Intermediate</small>
         </div>
       </article>
       <article className="experience_details">
         <SiJavascript className='experience_details-icon'/>
         <div>
         <h4>JavaScript</h4>
-      <small className='text-light'>Experienced</small>
         </div>
       </article>
       <article className="experience_details">
       <SiTypescript className='experience_details-icon' />
       <div>
       <h4>TypeScript</h4>
-      <small className='text-light'>Basic</small>
       </div>
       </article>
       <article className="experience_details">
@@ -70,21 +66,18 @@ const Experience = () => {
       <SiNodedotjs className='experience_details-icon'/>
     <div>
     <h4>Node js</h4>
-      <small className='text-light'>Intermediate</small>
     </div>
       </article>
       <article className="experience_details">
       <SiMysql className='experience_details-icon'/>
       <div>
       <h4>MySQL</h4>
-      <small className='text-light'>Experienced</small>
       </div>
       </article>
       <article className="experience_details">
       <SiMongodb className='experience_details-icon'/>
       <div>
       <h4>MongoDB</h4>
-      <small className='text-light'>Basic</small>
       </div>
       </article>
       </div>
