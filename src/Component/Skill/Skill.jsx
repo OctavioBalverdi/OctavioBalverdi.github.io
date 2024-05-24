@@ -40,21 +40,18 @@ const Experience = () => {
       <SiReact className='experience_details-icon' />
       <div>
       <h4>React</h4>
-      <small className='text-light'>Intermediate</small>
       </div>
       </article>
       <article className="experience_details">
       <SiBootstrap className='experience_details-icon' />
     <div>
     <h4>Bootstrap</h4>
-      <small className='text-light'>Intermediate</small>
     </div>
       </article>
       <article className="experience_details">
       <SiElectron className='experience_details-icon' />
      <div>
      <h4>Electron</h4>
-      <small className='text-light'>Basic</small>
      </div>
       </article>
       </div>
